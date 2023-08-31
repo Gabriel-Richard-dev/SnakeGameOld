@@ -1,0 +1,15 @@
+/home/gabrielrichard/atividades/SnakeGame/bin/Debug/net6.0/SnakeGame
+/home/gabrielrichard/atividades/SnakeGame/bin/Debug/net6.0/SnakeGame.deps.json
+/home/gabrielrichard/atividades/SnakeGame/bin/Debug/net6.0/SnakeGame.runtimeconfig.json
+/home/gabrielrichard/atividades/SnakeGame/bin/Debug/net6.0/SnakeGame.dll
+/home/gabrielrichard/atividades/SnakeGame/bin/Debug/net6.0/ref/SnakeGame.dll
+/home/gabrielrichard/atividades/SnakeGame/bin/Debug/net6.0/SnakeGame.pdb
+/home/gabrielrichard/atividades/SnakeGame/obj/Debug/net6.0/SnakeGame.csproj.AssemblyReference.cache
+/home/gabrielrichard/atividades/SnakeGame/obj/Debug/net6.0/SnakeGame.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabrielrichard/atividades/SnakeGame/obj/Debug/net6.0/SnakeGame.AssemblyInfoInputs.cache
+/home/gabrielrichard/atividades/SnakeGame/obj/Debug/net6.0/SnakeGame.AssemblyInfo.cs
+/home/gabrielrichard/atividades/SnakeGame/obj/Debug/net6.0/SnakeGame.csproj.CoreCompileInputs.cache
+/home/gabrielrichard/atividades/SnakeGame/obj/Debug/net6.0/SnakeGame.dll
+/home/gabrielrichard/atividades/SnakeGame/obj/Debug/net6.0/ref/SnakeGame.dll
+/home/gabrielrichard/atividades/SnakeGame/obj/Debug/net6.0/SnakeGame.pdb
+/home/gabrielrichard/atividades/SnakeGame/obj/Debug/net6.0/SnakeGame.genruntimeconfig.cache
