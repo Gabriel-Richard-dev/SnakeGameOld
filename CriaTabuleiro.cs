@@ -33,32 +33,46 @@ public class Tabuleiro
         Console.WriteLine();
     }
 
-    public void InsereSnake(Snake py, ConsoleKey key = ConsoleKey.F1)
+    public void InsereSnake(Snake py, Fruit fruit, ConsoleKey key = ConsoleKey.F1)
     {
-        int contHori = 0;
-        int contVert = 0;
-        Console.SetCursorPosition(py.GetHorizontal(), py.GetVertical());
-        for (int i = 0; i < py.GetTamanho(); i++)
+        Console.CursorVisible = false;
+        try
         {
-            Console.Write("█");
-            if (key == ConsoleKey.F1)
+            Console.SetCursorPosition(py.GetHorizontal(), py.GetVertical());
+            
+        }
+        catch
+        {
+            
+            return;
+        }
+        
+        
+       
+        if (key == ConsoleKey.F1)
+            py.SetHorizontal(1);
+        fruit.InsereFruta();
+        foreach (var s in py.RecebeSnake())
+        {
+            try
             {
-                py.SetHorizontal(1);    
+                Console.SetCursorPosition(s[1], s[0]);
+                Console.Write("█");
             }
-            else
+            catch
             {
-                switch (key)
-                {
-                    case ConsoleKey.UpArrow: contVert--; break; 
-                    case ConsoleKey.DownArrow: contVert++; break; 
-                    case ConsoleKey.LeftArrow: contHori--; break; 
-                    case ConsoleKey.RightArrow: contHori++; break; 
-                }
+                
+                return;
             }
             
-            Console.SetCursorPosition((py.GetHorizontal() + contHori), (py.GetVertical() + contVert));
-        }
-
+           
+            
+            
+        }   
+        
         Console.SetCursorPosition(0, 24);
+        Console.Write($"Pontuação: {py.points} | H {py.GetHorizontal()} | V {py.GetVertical()}");
     }
+
+
 }
