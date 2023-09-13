@@ -102,7 +102,7 @@ public class Snake
 
     public bool Ganhou()
     {
-        if (Tamanho == 1160)
+        if (Tamanho == 1159)
         {
             return true;
         }
@@ -118,7 +118,10 @@ public class Snake
             newRabo.Add(snake[GetTamanho()-1][1]);
             snake.Add(newRabo);
             ft.randomFruta();
-            _Speed -= 50;
+            if (_Speed - 50 >= 100)
+            {
+                _Speed -= 50;
+            }
             Tamanho++;
             points += 50;
         }
